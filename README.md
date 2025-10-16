@@ -12,7 +12,12 @@ python accounting/main.py
 python catslib/main.py
 ```
 
-### Task 2: Folder Structure
+### Task 3: Folder Structure
 ```bash
 python dir_tree/main.py <your_dir_path>
+```
+
+### Task 4: Assistant Bot
+```bash
+python contacts_bot
 ```
