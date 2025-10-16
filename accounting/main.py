@@ -24,7 +24,7 @@ def main() -> None:
         total, average = total_salary(salary_file)
         print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
     except FileNotFoundError as e:
-        print(f"FileNotFoundError: {e}")
+        print(f"SalaryFileNotFound: {e}")
     except Exception as e:
         print(f"Error: {e}")
 

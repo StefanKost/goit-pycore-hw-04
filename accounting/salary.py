@@ -22,6 +22,7 @@ def read_salary_data(file_path: Union[str, Path]) -> List[EmployeeDict]:
                     name, salary = line.split(',')
                     salaries.append({"name": name.strip(), "salary": Decimal(salary.strip())})
                 except ValueError:
+                    print('Invalid salary record')
                     continue
 
     return salaries

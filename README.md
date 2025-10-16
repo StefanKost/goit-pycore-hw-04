@@ -6,3 +6,8 @@
 ```bash
 python accounting/main.py
 ```
+
+### Task 2: Cats Info
+```bash
+python catslib/main.py
+```
