@@ -11,3 +11,8 @@ python accounting/main.py
 ```bash
 python catslib/main.py
 ```
+
+### Task 2: Folder Structure
+```bash
+python dir_tree/main.py <your_dir_path>
+```
